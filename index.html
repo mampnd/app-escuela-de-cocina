@@ -8,7 +8,7 @@
     <!-- Color theme for statusbar (Android only) -->
     <meta name="theme-color" content="#2196f3">
     <!-- Your app title -->
-    <title>My App</title>
+    <title>Escuela de cocina</title>
     <!-- Path to Framework7 Library Bundle CSS -->
     <link rel="stylesheet" href="css/framework7.bundle.min.css">
     <!-- Path to your custom app styles-->
@@ -21,13 +21,23 @@
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
         <!-- Initial Page, "data-name" contains page name -->
-        <div data-name="home" class="page">
+        <div data-name="home-menu" class="page">
 
           <!-- Top Navbar -->
-          <div class="navbar">
-            <div class="navbar-bg"></div>
             <div class="navbar-inner">
-              <div class="title">super App</div>
+              <div class="subnavbar">
+        <!-- Searchbar with auto init -->
+        <form class="searchbar">
+          <div class="searchbar-inner">
+            <div class="searchbar-input-wrap">
+              <input type="search" placeholder="Buscar">
+              <i class="searchbar-icon"></i>
+              <span class="input-clear-button"></span>
+            </div>
+            <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+          </div>
+        </form>
+      </div>
             </div>
           </div>
 
@@ -35,20 +45,52 @@
           <div class="toolbar toolbar-bottom">
             <div class="toolbar-inner">
               <!-- Toolbar links -->
-              <a href="#" class="link">Link 1</a>
-              <a href="#" class="link">Link 2</a>
+              <a href="https://www.facebook.com/" class="link"><img src="image_mp/facebook-2.png" alt="icono facebook"  width="25px"></a>
+              <a href="https://www.instagram.com/" class="link"><img src="image_mp/instagram-2.png" alt="icono instagram"  width="25px"></a>
+              <a href="https://twitter.com/explore" class="link"><img src="image_mp/twi.png" alt="icono twitter"  width="25px"></a>
             </div>
           </div>
 
-          <!-- Scrollable page content -->
-          <div class="page-content">
-            <p>Page content goes here</p>
+    <!-- Scrollable page content -->
+     <div class="page-content">
+          <div class="block">
+          <img src="image_mp/1.png" alt="bienvenido" width="40%" class="logo_menu"></div>
+
+            <div class="menu">
+          <div class="menu-inner">
+            <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono1.png" alt="tu cuenta" width="35px" class="icono_menu">Tu cuenta</div>
+            </a>
+            <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono2.png" alt="" width="35px">Escuela en casa</div>
+            </a>
+            <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono3.png" alt="" width="35px">Master class</div>
+            </a>
+               <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono6.png" alt="" width="35px">Recetarios</div>
+            </a>
+               <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono7.png" alt="" width="35px">Mapa tour</div>
+            </a>
+               <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono9.png" alt="" width="35px">Lo más popular</div>
+            </a>
+               <a href="#" class="menu-item">
+              <div class="menu-item-content"><img src="image_mp/icono10.png" alt="" width="35px">Configuración</div>
+            </a>
+          </div>
+        </div>
+    </div>
+
+
             <!-- Link to another page -->
             <a href="/about/">About app</a>
           </div>
         </div>
-      </div>
-    </div>
+
+
+
     <!-- Path to Framework7 Library Bundle JS-->
     <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
     <!-- Path to your app js-->

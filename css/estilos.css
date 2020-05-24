@@ -1,0 +1,22 @@
+#app{font-family: "lato", sans-serif;
+    background-image: url(/image_mp/5.png)
+
+}
+.logo_menu{margin: 20px 100px
+
+}
+.menu-inner {display: inline-block;
+    justify-content: center;
+    margin-left: 110px
+
+}
+.menu-item-content{background-color: #F29F8B
+
+}
+.icono_menu {text-align: left
+
+}
+.menu-item img { text-align: left;
+    margin-left: 10px;
+    display: flex;
+float: left;}
