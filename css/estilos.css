@@ -1,0 +1,202 @@
+#app{font-family: "lato", sans-serif;
+    background-image: url(/image_mp/5.png)
+
+}
+.logo_menu{margin: 20px 100px
+
+}
+.menu-inner {display: inline-block;
+    justify-content: center;
+    margin-left: 110px
+
+}
+.menu-item-content{background-color: #F29F8B
+
+}
+.icono_menu {text-align: left
+
+}
+.menu-item img { text-align: left;
+    margin-left: 10px;
+    display: flex;
+float: left;}
+/*RECETAS_ARROZ_PASTA_ROSCA_CUPCAKE*/
+
+.arco_nm{
+     background-image: url(../images_nm/5_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    font-family: 'amatic_scbold';
+    padding: 90px 0 0;
+}
+.titulo_estrellas{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items:center;
+    text-align: end;
+    color: #F29F8B;
+    border-bottom: 2px solid grey;
+    margin-bottom: 30px;
+}
+.titulo_estrellas h2{
+    font-size: 36px;
+    color: black;
+}
+.estrella_2{
+margin-left: auto;
+}
+.star{
+    color: #F29F8B;
+}
+.foto_info_nm{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 12px 12px 20px;
+}
+.foto_info_nm img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.info_nm{
+    display: inline-flex;
+font-family: 'latomedium';
+}
+.info_nm li{
+  list-style-type: none;
+  padding: 0 4px 0 4px;
+}
+/*tabla nutricional correccion*/
+.img_nm{
+    width: 25%;
+    position: relative;
+}
+#tabla{
+    width: 20%;
+    position: absolute;
+    transform: translate(165px, -77px);
+
+}
+#tn{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'latomedium';
+    text-align:center;
+    font-size: 16px;
+}
+#tn:hover{
+    color: #000000;
+}
+/*fin tabla*/
+
+.ingredientes_nm{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.51);
+    padding: 10px;
+    font-family: 'latoregular';
+    font-size: 15px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+
+}
+.ingredientes_nm h3{
+    font-family: 'amatic_scregular';
+    padding: 20px 20px 0;
+    font-size: 30px;
+}
+.ingredientes_nm ul li{
+  display: flex;
+    padding: 10px;
+}
+.ciro{
+    color: #F29F8B;
+}
+.preparacion_nm{
+      width: 80%;
+    margin: auto;
+    background-color: rgba(242, 159, 139, 0.65);
+    padding: 10px;
+    font-family: 'latoregular';
+    font-size: 15px;
+    margin-top: 40px;
+}
+.preparacion_nm h3{
+    font-family: 'amatic_scregular';
+    padding: 20px 20px 30px;
+    font-size: 30px;
+}
+.preparacion_nm ol li{
+ width: 82%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.home_nm{
+   margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.home_nm img{
+   width: 20%;
+}
+.califica_nm{
+    background-color: #f29f8b;
+    border-top-left-radius: 3000px;
+    border-top-right-radius: 3000px;
+    padding: 70px;
+}
+.califica_nm p{
+    text-align: center;
+    font-family: 'latoregular';
+    font-size: 18px;
+    padding-top: 10px;
+    color: white;
+}
+label{color:#ffffff;}
+input[type = "radio"]{ display:none;}
+.clasificacion{
+      direction: rtl;/* right to left */
+      unicode-bidi: bidi-override;/* bidi de bidireccional */
+       text-align: center;
+  }
+label:hover{color:#8BA977;}
+label:hover ~ label{color:#8BA977;}
+input[type = "radio"]:checked ~ label{color:#8BA977;}
+#form {
+  width: 100%;
+  margin:  auto;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 180px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: white;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: #8BA977;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #8BA977;
+}

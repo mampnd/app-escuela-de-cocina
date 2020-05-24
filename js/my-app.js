@@ -15,6 +15,10 @@ var app = new Framework7({
       path: '/about/',
       url: 'about.html',
     },
+       {
+      path: '/arroz/',
+      url: 'arco.html',
+    },
   ],
   // ... other parameters
 });
