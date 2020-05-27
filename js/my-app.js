@@ -19,6 +19,10 @@ var app = new Framework7({
       path: '/arroz/',
       url: 'arco.html',
     },
+       {
+      path: '/recetario/',
+      url: 'recetarios.html',
+    },
   ],
   // ... other parameters
 });
