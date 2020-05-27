@@ -1,22 +1,39 @@
-#app{font-family: "lato", sans-serif;
-    background-image: url(/image_mp/5.png)
+/*
+font-family: 'amatic_scbold';
+font-family: 'amatic_scregular';
+font-family: 'latoblack';
+font-family: 'latomedium';
+ font-family: 'latoregular';
+*/
+/*ESTILOS PRIMERAS PAGINAS*/
+
 
 }
-.logo_menu{margin: 20px 100px
 
+/*ESTILOS INDEX-MENU*/
+.page-content{ background-image: url(../image_mp/5.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 }
+.logo_menu{margin: 30px 100px 0 100px }
 .menu-inner {display: inline-block;
-    justify-content: center;
-    margin-left: 110px
-
+    justify-content:flex-start;
+   align-content: flex-start;
+    margin-left: 90px
 }
-.menu-item-content{background-color: #F29F8B
-
+.menu-item-content{background-color: #F29F8B;
 }
-.icono_menu {text-align: left
 
-}
 .menu-item img { text-align: left;
-    margin-left: 10px;
-    display: flex;
-float: left;}
+    display: inline-flex;}
+.toolbar-inner{ justify-content:space-around }
+.iconomenu { display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 15px
+
+}
+.iconomenu span img {
+    display: block
+}

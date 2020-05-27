@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/framework7.bundle.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/estilos.css">
+    <link type="text/css" href="fonts/stylesheet.css" rel="stylesheet">
+
   </head>
   <body>
     <!-- App root element -->
@@ -25,29 +27,30 @@
 
           <!-- Top Navbar -->
             <div class="navbar-inner">
-              <div class="subnavbar">
-        <!-- Searchbar with auto init -->
-        <form class="searchbar">
-          <div class="searchbar-inner">
-            <div class="searchbar-input-wrap">
-              <input type="search" placeholder="Buscar">
-              <i class="searchbar-icon"></i>
-              <span class="input-clear-button"></span>
+                 <div class="subnavbar">
+                    <!-- Searchbar with auto init -->
+                    <form class="searchbar">
+                      <div class="searchbar-inner">
+                        <div class="searchbar-input-wrap">
+                          <input type="search" placeholder="Buscar">
+                          <i class="searchbar-icon"></i>
+                          <span class="input-clear-button"></span>
+                        </div>
+                        <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+                      </div>
+                    </form>
+                  </div>
             </div>
-            <span class="searchbar-disable-button if-not-aurora">Cancel</span>
-          </div>
-        </form>
-      </div>
-            </div>
-          </div>
+
+
 
           <!-- Bottom Toolbar -->
           <div class="toolbar toolbar-bottom">
             <div class="toolbar-inner">
               <!-- Toolbar links -->
-              <a href="https://www.facebook.com/" class="link"><img src="image_mp/facebook-2.png" alt="icono facebook"  width="25px"></a>
-              <a href="https://www.instagram.com/" class="link"><img src="image_mp/instagram-2.png" alt="icono instagram"  width="25px"></a>
-              <a href="https://twitter.com/explore" class="link"><img src="image_mp/twi.png" alt="icono twitter"  width="25px"></a>
+              <a href="https://www.facebook.com/" class="link external" target="_blank"><img src="image_mp/facebook-2.png" alt="icono facebook"  width="25px"></a>
+              <a href="https://www.instagram.com/" class="link external" target="_blank"><img src="image_mp/instagram-2.png" alt="icono instagram"  width="25px"></a>
+              <a href="https://twitter.com/explore" class="link external" target="_blank"><img src="image_mp/twi.png" alt="icono twitter"  width="25px"></a>
             </div>
           </div>
 
@@ -59,10 +62,10 @@
             <div class="menu">
           <div class="menu-inner">
             <a href="#" class="menu-item">
-              <div class="menu-item-content"><img src="image_mp/icono1.png" alt="tu cuenta" width="35px" class="icono_menu">Tu cuenta</div>
+              <div class="menu-item-content iconomenu"><span><img src="image_mp/icono1.png" alt="tu cuenta" width="35px" class="icono_menu"></span><span>Tu cuenta</span></div>
             </a>
             <a href="#" class="menu-item">
-              <div class="menu-item-content"><img src="image_mp/icono2.png" alt="" width="35px">Escuela en casa</div>
+              <div class="menu-item-content"><img src="image_mp/icono2.png" alt="" width="35px"class="icono_menu">Escuela en casa</div>
             </a>
             <a href="#" class="menu-item">
               <div class="menu-item-content"><img src="image_mp/icono3.png" alt="" width="35px">Master class</div>
@@ -83,11 +86,61 @@
         </div>
     </div>
 
+           <div class="popup popup-about">
+        <div class="block">
+          <!-- Close Popup -->
+           <img src="image_mp/1.png" alt="logo inicio" width="60%">
+            <br>
+            <h2>"Todos pueden cocinar"</h2>
+            <p>Auguste Gusteau</p>
 
-            <!-- Link to another page -->
-            <a href="/about/">About app</a>
+        </div>
+      </div>
+
+             <div class="popup popup-bienvenida">
+        <div class="block">
+          <!-- Close Popup -->
+         <h2>HOLA!!</h2>
+            <br>
+            <a class="button popup-open" href="#" data-popup=".popup-inicial"> <img src="image_mp/2.png" alt="bienvenido" width="70%"> </a>
+            <a class="button popup-open" href="#" data-popup=".popup-instrucciones">siguiente</a>
+        </div>
+      </div>
+
+        <div class="popup popup-instrucciones">
+        <div class="block">
+          <!-- Close Popup -->
+            <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+                <a href="/about/"><img src="image_mp/4.png" alt="instrucción 1" width="100%"></a>
+                  <h1>APRENDE TÉCNICAS BÁSICAS</h1>
+                  <h2>Podrás aprender tipos de cortes, tipos de cocción y muchas técnicas más</h2>
+          </div>
+        <div class="swiper-slide">
+                  <h1>DESCUBRE DÍA A DÍA NUEVOS NIVELES</h1>
+                  <h2>Desbloquea los diferentes niveles cada que alcances tus logros diarios</h2>
+
+             <div class="block">
+                  <p class="row">
+                    <button class="col button button-outline button-round button-raised">Iniciar Sesión</button>
+                    <button class="col button button-raised button-fill button-round">Registrarse</button>
+          </p>
+        </div>
+        </div>
+
+    </div>
+     </div>
+
+        </div>
+      </div>
+
+
+
           </div>
         </div>
+          </div>
 
 
 

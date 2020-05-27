@@ -11,12 +11,25 @@ var app = new Framework7({
   },
   // Add default routes
   routes: [
-    {
-      path: '/about/',
-      url: 'about.html',
-    },
+
   ],
   // ... other parameters
 });
 
 var mainView = app.views.create('.view-main');
+
+//abrir popup
+var abrirPopupInicial = app.popup.open(".popup-about");
+
+function cerrarpopup (){
+    cerrarpopup = setTimeout(function (){
+        var abrirPopupInicial = app.popup.close(".popup-about");
+        popupbienvenida()
+    }, 2000);
+function popupbienvenida () {
+    var abrirPopupBienvenida = app.popup.open(".popup-bienvenida");
+}
+}
+cerrarpopup()
+
+
