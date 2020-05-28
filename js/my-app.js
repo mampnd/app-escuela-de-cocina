@@ -28,6 +28,66 @@ var app = new Framework7({
       path: '/master/',
       url: 'masterclass.html',
     },
+      {
+      path: '/nivel/',
+      url: 'levels.html',
+    },
+      {
+      path: '/basico_1/',
+      url: 'basico.html',
+    },
+       {
+      path: '/feliz/',
+      url: 'desbloquear.html',
+    },
+        {
+      path: '/herramientas/',
+      url: 'herramientas.html',
+    },
+       {
+      path: '/cuchillos/',
+      url: 'cuchillos.html',
+    },
+      {
+      path: '/medio/',
+      url: 'intermedio.html',
+    },
+       {
+      path: '/alto/',
+      url: 'avanzado.html',
+    },
+      {
+      path: '/pais/',
+      url: 'pais.html',
+    },
+      {
+      path: '/variospaises/',
+      url: 'variospaises.html',
+    },
+       {
+      path: '/todopasta/',
+      url: 'todopasta.html',
+    },
+       {
+      path: '/pastabolo/',
+      url: 'pastabolo.html',
+    },
+       {
+      path: '/producto/',
+      url: 'producto.html',
+    },
+       {
+      path: '/pollo/',
+      url: 'pollo.html',
+    },
+       {
+      path: '/pollomac/',
+      url: 'pollomac.html',
+    },
+       {
+      path: '/arco/',
+      url: 'arco.html',
+    },
   ],
   // ... other parameters
 });

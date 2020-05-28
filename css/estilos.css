@@ -1,3 +1,8 @@
+/*font-family: 'amatic_scbold';
+font-family: 'amatic_scregular';
+font-family: 'latoblack';
+ font-family: 'latomedium';
+font-family: 'latoregular';*/
 /*ESTILOS PRIMERAS PAGINAS*/
 .fondo{ background-image: url(../image_mp/5.png);
     background-repeat: no-repeat;
@@ -155,12 +160,12 @@ background-repeat: no-repeat;
     margin: auto;
 }
 .negro_nm{
-    font-size: 26px;
-    padding: 0px 0 10px;
+    font-size: 28px;
 }
 .blanco_nm{
     color: white;
-    font-size: 22px;
+    font-size: 16px;
+
 }
 
 .botonblanco_nm{
@@ -193,14 +198,15 @@ background-repeat: no-repeat;
 
 }
 .niveles_nm img{
-    width: 40%;
+    width: 20%;
 }
 .imagen_descripcion2_nm{
         text-align: center;
     background-color: #8BA977;
     display: flex;
-    width: 72%;
     margin: auto;
+    margin-right:40px;
+    margin-left: 40px;
     border-radius: 8px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -250,6 +256,7 @@ border-color:  #8BA977;
 .logo_recetario{
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
 .logo_recetario img{
     width: 40%;
@@ -273,8 +280,8 @@ border-color:  #8BA977;
         text-align: center;
     background-color: rgba(139, 169, 119, 0.55);
     display: flex;
-    width: 72%;
-    margin: auto;
+margin-left: 40px;
+    margin-right: 40px;
     border-radius: 12px;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -285,14 +292,12 @@ border-color:  #8BA977;
 }
 .negro_nm1{
     font-size: 24px;
-    padding: 10px 0;
     font-family: 'amatic_scbold';
 
 }
 .blanco_nm1{
     color: white;
     font-size: 20px;
-    padding: 0 10px 10px;
 }
 
 /*FIN RECETARIO*/
@@ -493,6 +498,14 @@ list-style-type: none;
 .back:hover{
     color: #F29F8B;
 }
+.back1{
+    font-size: 40px;
+    margin-left: 25px;
+    color: #8BA977;
+}
+.back1:hover{
+    color: #464342;
+}
 .title_nm_2 ul p{
 font-family: 'latomedium';
     color: white;
@@ -503,7 +516,7 @@ font-family: 'latomedium';
     color: #d4b50b;
     font-size: 30px;
     position: relative;
-    transform: translate(339px, 30px)
+    transform: translate(343px, 35px)
  }
 /*Aleja*/
 /*Tu cuenta*/
@@ -634,16 +647,21 @@ align-content: center;
 /*MASTERCLASS*/
 #master{
    text-align: center;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 10px;
     color: #F29F8B;
     font-size: 50px;
 }
-.gordon ul{
+.gordon{
     display: flex;
-    list-style: none;
-    width: 80%;
+    width: 70%;
     margin: auto;
+}
+.gordon h3{
+    width: 100%;
+    transform: translateX(-60px);
+    font-size: 30px;
+    font-family: 'amatic_scbold';
 }
 .video{
     margin-left: 65px
@@ -669,9 +687,268 @@ border-color:  #8BA977;
     color:  white;
     background-color: #F29F8B;
     border-color:  rgba(139, 169, 119, 0);
+}
+/*NIVELES-ESCUELA EN CASA*/
+.nive_escu{
+    display: flex;
+    width: 100%;
+}
+
+.escu_casa{
+    background-image: url(../image_daniela/pla_2_arreglo.jpg);
+    width: 70%;
+    padding: 83px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.h2_titulos{
+    font-family: 'amatic_scregular';
+    color:  #F29F8B;
+    font-size: 4em;
+    line-height: 1em;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.img_n{
+    width: 90px;
+    padding: 20px 0;
+}
+
+.p_casa{
+    font-family: 'latoregular';
+    width: 70%;
+    margin: auto;
+    padding: 40px 0 0;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    text-align:center;
+
+
+}
+.text_nive{
+    font-family: 'amatic_scbold';
+    color:  white;
+    font-size: 2.0em;
+    padding: 50px 0 0px;
+}
+
+.nive_bot_image{
+    width: 30%;
+    background-color: rgb(139, 169, 119);
+    border-radius: 80px;
+    box-shadow: -3px 3px 3px 15px rgba(41, 41, 41, 0.19);
+   }
+.boton_niveles{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/botones niveles/
+.bot_niveles{
+/*    width: 72%;*/
+    margin:auto;
+    text-align:center;
+
+}
+.bot_nive{
+    text-decoration: none;
+    font-family: 'latoregular';
+    font-size: 15px;
+    color:  #606060;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.62);
+    box-shadow: 1px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_nive:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
+/*Recetas por pais*/
+.pais{
+    background-image: url(../image_daniela/por_pais.jpg);
+    width: 100%;
+    padding: 16px 20px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+}
+
+.titulo_pais{
+font-family: 'amatic_scbold';
+font-size: 4em;
+color:  #606060;
+margin: 0 0 20px 0;
+border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
+}
+
+.p_pais{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 16px;
+    margin-bottom: 100pz;
+    color:  #606060;
 
 }
 
+/*boton comenzar*/
+.boton_pais{
+    width: 100%;
+    margin-top: 200px;
+    text-align:end;
+    padding: 9px 0 15px;
+
+}
+.bot_pais{
+    text-decoration: none;
+    font-size: 18px;
+    color:  white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 169, 119);
+    box-shadow: 3px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_pais:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
+/*varios paises*/
+/*descripcionesmac*/
+
+.searchbar{
+    margin-right: 50%;
+     margin-bottom: 50px;
+}
+.titulo_descripciones_mac{
+    font-family: 'amatic_scbold';
+    color: #5a5a5a;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+
+}
+
+.filas1_mac{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 10%;
+    font-family: 'latomedium';
+    font-size: 10px;
+
+}
+.columna1_mac{
+    margin-right: 10px;
+    background-color: white;
+    padding:9px 9px 10px 9px;
+}
+.columna2_mac{
+    margin-left: 10px;
+    background-color: white;
+    padding:9px 9px 10px 9px;
+
+}
+#text_descr_mac{
+    margin-top: 3px;
+    text-decoration: none;
+}
+.vinculo_fi_mac{
+    text-decoration: none;
+    color: #8BA977;
+}
+.vinculo_fi_mac :hover{
+    background-color: #F29F8B;
+    color: white;
+}
+.titulos_lomapopu_mac{
+    font-family: 'amatic_scbold';
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: end;
+    margin-right: 20px;
+
+}
+/*descripchuchu*/
+.fila_principal_pichu{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 10%;
+    font-family: 'amatic_scbold';
+    color:  #F29F8B;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.columna1fila_mac{
+    margin-right: 10px;
+    background-color: white;
+    padding:11px 11px 15px 11px;
+}
+/*producto*/
+.recetas_producto{
+    background-image: url(../image_daniela/producto.jpg);
+    width: 100%;
+    padding: 16px 0px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+
+}
+
+
+.titulo_pro{
+font-family: 'amatic_scbold';
+font-size: 4em;
+color:  #606060;
+margin: 0 0 20px 0;
+border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
+}
+
+.p_pro{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 14px;
+    margin-bottom: 100pz;
+    color:  #606060;
+
+}
+
+/*boton comenzar*/
+.boton_pro{
+    width: 100%;
+    margin-top: 200px;
+    text-align:end;
+    padding: 9px 0 15px;
+
+}
+.bot_pro{
+    text-decoration: none;
+    font-size: 18px;
+    color:  white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 169, 119);
+    box-shadow: 3px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_pro:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
 
 
 
