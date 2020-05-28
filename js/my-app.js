@@ -11,17 +11,22 @@ var app = new Framework7({
   },
   // Add default routes
   routes: [
-        {
-      path: '/about/',
-      url: 'about.html',
-    },
+
       {
-      path: '/arroz/',
-      url: 'arco.html',
+      path: '/cuenta/',
+      url: 'cuenta.html',
     },
        {
       path: '/recetario/',
       url: 'recetarios.html',
+    },
+       {
+      path: '/inicio/',
+      url: 'index.html',
+    },
+       {
+      path: '/master/',
+      url: 'masterclass.html',
     },
   ],
   // ... other parameters
