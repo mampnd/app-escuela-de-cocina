@@ -492,8 +492,10 @@ list-style-type: none;
 }
 .back{
     font-size: 40px;
-    margin: 20px 10px 0 0;
-    color: white;
+    margin:auto;
+    color: #383231;
+    margin-top: 20px;
+
 }
 .back:hover{
     color: #F29F8B;
@@ -609,7 +611,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 width:100%;
-margin-top:0px;
+margin-top:30px;
 align-content: center;
     justify-content: center;
     text-align: center;
@@ -647,7 +649,7 @@ align-content: center;
 /*MASTERCLASS*/
 #master{
    text-align: center;
-    margin-top: 75px;
+    margin-top: 35px;
     margin-bottom: 10px;
     color: #F29F8B;
     font-size: 50px;
@@ -749,7 +751,7 @@ border-color:  #8BA977;
     text-align: center;
 }
 
-/botones niveles/
+/*botones niveles*/
 .bot_niveles{
 /*    width: 72%;*/
     margin:auto;
@@ -775,7 +777,7 @@ border-color:  #8BA977;
 .pais{
     background-image: url(../image_daniela/por_pais.jpg);
     width: 100%;
-    padding: 16px 20px 100px;
+    padding: 0px 0px 10px;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -801,7 +803,7 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 
 /*boton comenzar*/
 .boton_pais{
-    width: 100%;
+    width: 80%;
     margin-top: 200px;
     text-align:end;
     padding: 9px 0 15px;
@@ -901,7 +903,7 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 .recetas_producto{
     background-image: url(../image_daniela/producto.jpg);
     width: 100%;
-    padding: 16px 0px 100px;
+    padding: 0px 0px 10px;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -929,7 +931,8 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 
 /*boton comenzar*/
 .boton_pro{
-    width: 100%;
+    width: 80%;
+
     margin-top: 200px;
     text-align:end;
     padding: 9px 0 15px;
@@ -949,8 +952,292 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
     background-color: #F29F8B;
     border-color:  rgba(139, 169, 119, 0);
 }
+/*OCASION*/
+.recetas_ocasion{
+    background-image: url(../image_daniela/ocaciones.jpg);
+    width: 100%;
+    padding: 0px 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+
+}
 
 
+.titulo_oca{
+font-family: 'amatic_scbold';
+font-size: 4em;
+color:  #606060;
+margin: 0 0 20px 0;
+border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
+}
 
+.p_oca{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 14px;
+    margin-bottom: 100pz;
+    color:  #606060;
+
+}
+
+/*boton comenzar*/
+.boton_oca{
+    width: 80%;
+    margin-top: 190px;
+    text-align:end;
+    padding: 9px 0 15px;
+
+}
+.bot_oca{
+    text-decoration: none;
+    font-size: 18px;
+    color:  white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 169, 119);
+    box-shadow: 3px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_oca:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
+/*vegetariana*/
+.recetas_vegetariano{
+    background-image: url(../image_daniela/vegetariana.jpeg);
+    width: 100%;
+    padding: 0px 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+
+}
+
+.titulo_vege{
+font-family: 'amatic_scbold';
+font-size: 4em;
+color:  #606060;
+margin: 0 0 20px 0;
+border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
+}
+
+.p_vege{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:  #606060;
+
+}
+
+/*boton comenzar*/
+.boton_vege{
+    width: 80%;
+    margin-top: 210px;
+    text-align:end;
+    padding: 9px 0 15px;
+
+}
+.bot_vege{
+    text-decoration: none;
+    font-size: 18px;
+    color:  white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 169, 119);
+    box-shadow: 3px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_vege:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
+/*reposteria*/
+.recetas_reposteria{
+    background-image: url(../image_daniela/reposteria.jpg);
+    width: 100%;
+    padding:0px 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+
+}
+
+.titulo_rep{
+font-family: 'amatic_scbold';
+font-size: 4em;
+color:  #606060;
+margin: 0 0 40px 0;
+text-align: center;
+border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
+}
+
+.p_rep{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 14px;
+    margin-bottom: 100pz;
+    color:  #606060;
+
+}
+
+/*boton comenzar*/
+.boton_rep{
+    width:80%;
+    margin-top: 180px;
+    text-align:end;
+    padding: 9px 0 15px;
+
+}
+.bot_rep{
+    text-decoration: none;
+    font-size: 18px;
+    color:  white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 169, 119);
+    box-shadow: 3px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_rep:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
+/*MAPATOUR*/
+.recetas_mapatour{
+    background-image: url(../image_daniela/tour.jpg);
+    width: 100%;
+    padding: 0px 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+
+}
+
+.titulo_tour{
+font-family: 'amatic_scbold';
+font-size: 4em;
+color:  #606060;
+margin: 30px 0 50px 0;
+text-align: center;
+border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
+}
+
+.p_tour{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 14px;
+    margin-top: 340px;
+    color:  #606060;
+
+}
+
+/*boton comenzar*/
+.boton_tour{
+    width: 80%;
+    margin-top:30px;
+    text-align:end;
+    padding: 9px 0 15px;
+    margin-bottom: 10px;
+}
+.bot_tour{
+    text-decoration: none;
+    font-size: 18px;
+    color:  white;
+    padding: 14px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 169, 119);
+    box-shadow: 3px 5px 10px 0px rgba(41, 41, 41, 0.75);
+}
+.bot_tour:hover {
+    color:  white;
+    background-color: #F29F8B;
+    border-color:  rgba(139, 169, 119, 0);
+}
+/*Paises*/
+.paises_nm{
+     background-image: url(../images_nm/5_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    font-family: 'amatic_scbold';
+    padding-bottom: 55px;
+    width: 100%;
+    text-align: center;
+}
+.imagen_gorro{
+    background-color: rgba(139, 169, 119, 0.54);
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    margin: 10px 0px 30px 0px;
+    padding-top: 60px;
+}
+.imagen_gorro h2{
+    color: #393939;
+    font-size: 50px;
+    padding: 20px 0 60px;
+}
+.imagen_gorro img{
+    width: 50%;
+    margin: auto;
+}
+.verde_pais{
+    background-color: #8BA977;
+    width: 60%;
+    margin: auto;
+    padding: 18px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.verde_pais p{
+        color: white;
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+.banderas_nm img{
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.banderas_nm ul li{
+   list-style-type: none;
+}
+/*estrellas inglaterra*/
+.imagen_inglaterra{
+    text-align: center;
+    padding: 60px 0 40px;
+}
+.imagen_inglaterra img{
+    width: 60%;
+    margin: auto;
+}
+.estrellas_i{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom:40px;
+    margin-top: 30px;
+}
+.estrellas_i ul li{
+    list-style-type: none;
+    background-color: #8BA977;
+    padding: 20px 0;
+
+}
+.boton_i{
+margin: 25px 0;
+}
+.stari{
+    font-size: 40px;
+    color: #f4fd80;
+}
 
 

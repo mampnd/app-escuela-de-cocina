@@ -88,6 +88,62 @@ var app = new Framework7({
       path: '/arco/',
       url: 'arco.html',
     },
+         {
+      path: '/ocasion/',
+      url: 'ocasion.html',
+    },
+      {
+      path: '/fiestas/',
+      url: 'fiestas.html',
+    },
+       {
+      path: '/todonavidad/',
+      url: 'todonavidad.html',
+    },
+      {
+      path: '/rosca/',
+      url: 'rosca.html',
+    },
+       {
+      path: '/vege/',
+      url: 'vegetariana.html',
+    },
+      {
+      path: '/todovege/',
+      url: 'todovegetariano.html',
+    },
+       {
+      path: '/hamburguesa/',
+      url: 'hamburguesa.html',
+    },
+       {
+      path: '/reposteria/',
+      url: 'reposteria.html',
+    },
+      {
+      path: '/postres/',
+      url: 'postres.html',
+    },
+      {
+      path: '/cupcake/',
+      url: 'cupcake.html',
+    },
+      {
+      path: '/mapatour/',
+      url: 'mapatour.html',
+    },
+      {
+      path: '/paises/',
+      url: 'paises.html',
+    },
+      {
+      path: '/inglaterra/',
+      url: 'inglaterra.html',
+    },
+       {
+      path: '/popular/',
+      url: 'popular.html',
+    },
   ],
   // ... other parameters
 });
