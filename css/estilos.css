@@ -116,41 +116,36 @@ background-repeat: no-repeat;
 }
 /*ÑUSTA*/
 /*PAGINA NIVEL DESBLOQUEADO*/
-.desbloqueado_nm{
-    background-color: #F29F8B;
+.desbloqueado_nm_{
+    background-color: #ffaa95;
     font-family: 'amatic_scbold';
-    padding: 60px 0 ;
+    padding: 20px 0 ;
 }
-.desbloqueado_nm img{
-    width: 40%;
-}
+
 .gorro_nm img{
    width: 40%;
     margin-left: 40px;
 
 }
-.centrado_nm{
-    font-size: 63px;
+#centrado_nm{
+    font-size: 50px;
     color: white;
-    padding: 20px 0;
     letter-spacing: 6px;
         text-align: center;
 }
 .centrado2_nm{
  text-align: center;
    font-size: 30px;
-    color: white;
-    width: 55%;
+    color: #4e4e4e;
     margin: auto;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
     letter-spacing: 2px;
 }
 .imagen_descripcion_nm{
-        text-align: center;
+    text-align: center;
     background-color: #8BA977;
     display: flex;
-    width: 75%;
-    margin: auto;
+    margin: 0 20px;
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 6px 6px 10px 2px rgba(41, 40, 40, 0.75);
@@ -158,13 +153,14 @@ background-repeat: no-repeat;
 .des_2{
     width: 70%;
     margin: auto;
+
 }
 .negro_nm{
     font-size: 28px;
 }
 .blanco_nm{
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -177,11 +173,11 @@ background-repeat: no-repeat;
 .btnblanco_nm{
     text-decoration: none;
     font-size: 18px;
-    color:  #F29F8B;
+    color:  #0b0b0b;
    padding: 10px 30px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 1px 5px 1px 0px rgba(185, 111, 111, 0.75);
+    box-shadow: 1px 5px 1px 0px rgb(185, 111, 111);
 }
 .btnblanco_nm:hover {
     color: white;
@@ -308,7 +304,6 @@ margin-left: 40px;
     background-size: cover;
     object-fit: cover;
     font-family: 'amatic_scbold';
-    padding: 30px 0 0;
 }
 .titulo_estrellas{
     display: flex;
@@ -356,7 +351,7 @@ font-family: 'latomedium';
 #tabla{
     width: 20%;
     position: absolute;
-    transform: translate(165px, -77px);
+    transform: translate(165px, -100px);
 
 }
 #tn{
@@ -384,7 +379,7 @@ font-family: 'latomedium';
 }
 .ingredientes_nm h3{
     font-family: 'amatic_scregular';
-    padding: 20px 20px 0;
+    padding: 0px 50px 0;
     font-size: 30px;
 }
 .ingredientes_nm ul li{
@@ -405,7 +400,7 @@ font-family: 'latomedium';
 }
 .preparacion_nm h3{
     font-family: 'amatic_scregular';
-    padding: 20px 20px 30px;
+    padding: 10px 50px 10px;
     font-size: 30px;
 }
 .preparacion_nm ol li{
@@ -417,8 +412,8 @@ font-family: 'latomedium';
    margin: auto;
     width: 80%;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .home_nm img{
    width: 20%;
@@ -428,7 +423,7 @@ font-family: 'latomedium';
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    padding: 57px;
+    padding: 35px 0 35px 0;
 }
 .califica_nm p{
     text-align: center;
@@ -669,17 +664,18 @@ align-content: center;
     margin-left: 65px
 }
 .botonrosa_mp{
-    width: 72%;
+    width: 1%;
     margin:auto;
     text-align:end;
-    padding: 35px 0 15px;
+    padding: 5px 0 0px;
 }
 .btnrosa_mp{
     text-decoration: none;
-    font-size: 18px;
-    color:   #353e30;
-   padding: 7px 25px;
+    font-size: 24px;
+    color:   #fdfdfd;
+   padding: 7px 65px;
 border-color:  #8BA977;
+    background-color: #8BA977;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
@@ -1239,5 +1235,56 @@ margin: 25px 0;
     font-size: 40px;
     color: #f4fd80;
 }
+/*CUCHILLOS*/
 
-
+.cuchillos_mp{
+    display: flex;
+    margin-top: 20px;
+}
+.texto_mp{
+padding-left: 20px;
+    background-color: #8BA977;
+}
+.texto_mp h3{
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+}
+.texto_mp h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.video_c{
+ padding: 100px 33px 0;
+}
+#como1{
+    font-size: 30px;
+    color: #ffaa95;
+}
+#des_mp_c{
+    font-family: 'latoregular';
+    padding-right: 13px;
+    font-size: 12px;
+}
+.texto_mp2{
+padding-left: 20px;
+    background-color: #ffffff;
+}
+.div_mp{
+    background-color: #8BA977;
+    padding: 20px 0;
+    text-align: center;
+    margin: 12px 0;
+}
+.div_mp h2{
+    color: white;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    margin: 0 10px;
+}
+#como2{
+    font-size: 30px;
+    color: #791a1a;
+    padding: 80px 0;
+    text-align: center;

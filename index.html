@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="css/estilos.css">
     <script type="text/javascript" src="js/all.min.js"></script>
 <link type="text/css" href="fuente/stylesheet.css" rel="stylesheet">
+<!--iconos-->
+ <link rel="apple-touch-icon" href="image_daniela/icono57.png" sizes="57x57">
+ <link rel="apple-touch-icon" href="image_daniela/icono80.png" sizes="80x80">
+ <link rel="apple-touch-icon" href="image_daniela/icono114.png" sizes="114x114">
   </head>
   <body>
     <!-- App root element -->
@@ -99,7 +103,154 @@
                         </div>
                     </div>
                 </div>
+                 <!--PORTADA-->
+                <div class="popup popup-about fondo">
+                    <div class="block">
+                         Close Popup
+                        <img src="image_mp/1.png" alt="logo inicio" width="80%" id="logo_portada">
+                        <br>
+                        <h2 id="frase">"Todos pueden cocinar"</h2>
+                        <p id="chef"><em>Auguste Gusteau</em></p>
 
+                    </div>
+                </div>
+                <!--BIENVENIDA-->
+                <div class="popup popup-bienvenida fondo-rosa">
+                    <div class="block">
+<!--                         Close Popup -->
+                        <h2>HOLA!!</h2>
+                    <img src="image_mp/2.png" alt="bienvenido" width="100%">
+                        <br>
+                        <a href="" class="popup-close">popup</a>
+                        <a class="button popup-open" href="#" data-popup=".popup-instrucciones" id="siguiente">siguiente > </a>
+                    </div>
+                </div>
+<!--INSTRUCCIONES-->
+                <div class="popup popup-instrucciones">
+<!--                     Close Popup -->
+                    <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="/about/"><img src="image_mp/4.png" alt="instrucción 1" width="100%" class="icono-instruccion"></a>
+                                <br>
+                                <br>
+                                <h1>APRENDE TÉCNICAS BÁSICAS</h1>
+                                <br>
+                                <h2>Podrás aprender tipos de cortes, tipos de cocción y muchas técnicas más</h2>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/about/"><img src="image_mp/6.png" alt="instrucción 1" width="100%"></a>
+                                <br>
+                                <br>
+                                <h1 id="titulo-rosado">DESCUBRE DÍA A DÍA
+                                    NUEVOS NIVELES</h1>
+                                <br>
+                                <h2>Desbloquea los diferentes niveles cada que alcances tus logros diarios</h2>
+                                <br>
+                                <a href="" class="popup-close">popup</a>
+                                <div class="block">
+                                    <p class="row">
+                                        <button class="col button button-outline button-round button-raised color-gray popup-open" data-popup=".popup-registrarse" id="botongris">Registrarse</button>
+
+                                        <button class="col button button-raised button-fill color-gray button-round popup-open" data-popup=".popup-iniciarsesion" id="botongris">Iniciar Sesión</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- INICIAR SESION               -->
+                <!--inicio popup iniciar sesion-->
+<!--
+                <div class="popup popup-iniciarsesion">
+                    <div class="page-content">
+                        <div class="block">
+                            <a href="/about/"><img src="image_mp/1.png" alt="logo" width="40%" id="logo-formularios"></a>
+                            <h1>INICIAR SESIÓN</h1>
+                            <form action="sendmail.php" method="post" class="formulario">
+                                <label for="password">Usuario o e-mail</label>
+                                <br>
+                                <input type="nombre" id="dato">
+                                <br>
+                                <label for="password">Contraseña</label>
+                                <br>
+                                <input type="password" id="dato">
+                                <br>
+                            </form>
+                            <div class="recordar_contrasena">
+                                <br>
+                                <input style="opacity:1;" type="checkbox" data-required="1" id="terminos">
+                                <p style="color:black;" id="terminos">Recordar mi contraseña</p>
+                                <br>
+                                <input style="opacity:1;" type="checkbox" data-required="1" id="recibir_info">
+                                <p style="color:black;" id="terminos">Olvidé mi contraseña</p>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <p class="row">
+                                <button class="col button button-raised button-fill button-round color-gray popup-close">Comenzar</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+-->
+                <!--REGISTRARSE-->
+                <!--inicio popup registrarse-->
+<!--
+                <div class="popup popup-registrarse">
+                    <div class="page-content">
+                        <div class="block">
+                            <a href="/about/"><img src="image_mp/1.png" alt="logo" width="40%" id="logo-formularios"></a>
+                            <h1>REGÍSTRATE</h1>
+                            <form action="sendmail.php" method="post" class="formulario">
+                                <label for="nombre">Nombre</label>
+                                <br>
+                                <input type="text" id="dato">
+                                <br>
+                                <label for="apellido">Apellido</label>
+                                <br>
+                                <input type="text" id="dato">
+                                <br>
+                                <label for="mail">E-mail</label>
+                                <br>
+                                <input type="mail" id="dato">
+                                <br>
+                                <label for="password">Usuario</label>
+                                <br>
+                                <input type="nombre" id="dato">
+                                <br>
+                                <label for="password">Contraseña</label>
+                                <br>
+                                <input type="password" id="dato">
+                                <br>
+                                <label for="password">Confirmar contraseña</label>
+                                <br>
+                                <input type="password" id="dato">
+                            </form>
+                            <br>
+                            <br>
+                            <div class="term_cond">
+                                <br>
+                                <input style="opacity:1;" type="checkbox" data-required="1" id="terminos">
+                                <p style="color:black;" id="terminos">Acepto <a style="color:gray;" href="#" id="terminos">Términos y Condiciones</a></p>
+                                <br>
+                                <input style="opacity:1;" type="checkbox" data-required="1" id="recibir_info">
+                                <p style="color:black;" id="terminos">Acepto recibir información y notificaciones al correo</p>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <p class="row">
+                                <button class="col button button-raised button-fill button-round color-gray">Comenzar</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+-->
 
           </div>
         </div>

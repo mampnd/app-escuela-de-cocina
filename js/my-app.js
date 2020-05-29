@@ -149,3 +149,25 @@ var app = new Framework7({
 });
 
 var mainView = app.views.create('.view-main');
+//abrir popup
+var abrirPopupInicial = app.popup.open(".popup-about");
+
+function cerrarpopup() {
+    cerrarpopup = setTimeout(function () {
+        var abrirPopupInicial = app.popup.close(".popup-about");
+        popupbienvenida()
+    }, 3000);
+
+    function popupbienvenida() {
+        var abrirPopupBienvenida = app.popup.open(".popup-bienvenida");
+    }
+}
+cerrarpopup()
+function popupresgistrarse() {
+    //    var abrirPopupRegistrarse = app.popup.open(".popup-registrarse");
+    var abrirPopupBienvenida = app.popup.close(".popup-bienvenida")
+}
+
+function popupiniciarsesion() {
+    var abrirPopupIniciarsesion = app.popup.open(".popup-iniciarsesion");
+}
