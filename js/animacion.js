@@ -1,1 +1,1 @@
-gsap.from("#bienve",{duration:5, y:-50 ;} )
+gsap.from (".franja", {duration:1, scaleX:0,});
