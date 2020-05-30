@@ -22,7 +22,7 @@ font-family: 'latoregular';*/
 .fondo-rosa{background-color: #F29F8B;
 }
 .fondo-rosa h2{font-family: 'amatic_scregular';
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
     color: white;
     letter-spacing:2px;
@@ -30,7 +30,7 @@ font-family: 'latoregular';*/
 }
 #siguiente{font-family: 'latoregular', sans-serif;
            color: white;
-    margin-top: 140px
+    margin-top: 100px
 }
 .popup-instrucciones {background-image: url(../image_mp/5.png);
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ background-repeat: no-repeat;
     margin: auto;
 }
 .logo_menu{
-    margin-left: 75px;
+    margin-left: 98px;
 }
 .menu-inner {
     display:flow-root;
@@ -157,13 +157,13 @@ background-repeat: no-repeat;
     box-shadow: 6px 6px 10px 2px rgba(41, 40, 40, 0.75);
 }
 .des_2{
-    width: 70%;
-    margin: auto;
+    padding: 20px 0px 0px 10px;
 
 }
 .negro_nm{
     font-size: 28px;
     margin: 0;
+    padding: 10px
 }
 .blanco_nm{
     color: white;
@@ -199,16 +199,11 @@ background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     font-family: 'amatic_scbold';
-
-}
-.niveles_nm img{
-    width: 20%;
 }
 .imagen_descripcion2_nm{
         text-align: center;
     background-color: #8BA977;
     display: flex;
-    margin: auto;
     margin-right:40px;
     margin-left: 40px;
     margin-bottom: 20px;
@@ -291,7 +286,7 @@ margin-left: 40px;
     background-color: #F29F8B;
 }
 .negro_nm1{
-    padding: 10px;
+
     font-size: 24px;
     font-family: 'amatic_scbold';
     margin: 0;
@@ -300,9 +295,9 @@ margin-left: 40px;
 }
 .blanco_nm1{
     color: #4d4545;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
-    padding: 0px 10px 5px;
+    padding: 0px 10px 10px;
     line-height: 20px;
 
 }
@@ -520,12 +515,7 @@ font-family: 'latomedium';
     font-size: 23px;
     padding-top: 3px;
 }
-.check{
-    color: #d4b50b;
-    font-size: 30px;
-    position: relative;
-    transform: translate(343px, 35px)
- }
+
 /*Aleja*/
 /*Tu cuenta*/
 .list{
@@ -706,7 +696,7 @@ border-color:  #8BA977;
 .escu_casa{
     background-image: url(../image_daniela/pla_2_arreglo.jpg);
     width: 70%;
-    padding: 83px 0;
+    padding: 43px 0;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -720,7 +710,7 @@ border-color:  #8BA977;
     width: 60%;
     margin: auto;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 280px;
 }
 
 .img_n{
@@ -744,7 +734,8 @@ border-color:  #8BA977;
     font-family: 'amatic_scbold';
     color:  white;
     font-size: 2.0em;
-    padding: 50px 0 0px;
+    padding: 60px 0 0px;
+    margin: 0;
 }
 
 .nive_bot_image{
@@ -1255,12 +1246,11 @@ margin: 25px 0;
     margin-top: 20px;
 }
 .texto_mp{
-padding-left: 20px;
+padding-left: 8px;
     background-color: #8BA977;
 }
 .texto_mp h3{
     font-size: 30px;
-    width: 90%;
     text-align: center;
 }
 .texto_mp h2{
@@ -1414,8 +1404,12 @@ padding-left: 20px;
     background-color: rgba(255, 255, 255, 0.74);
     font-size: 16px;
 }
+#hdif{
+    font-size: 29px;
+}
 /*animacion*/
 .franja{
     height: 10px;
     background-color:#8BA977;
 }
+
