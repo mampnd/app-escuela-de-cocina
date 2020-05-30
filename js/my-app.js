@@ -11,7 +11,10 @@ var app = new Framework7({
   },
   // Add default routes
   routes: [
-
+    {
+      path: '/inicio/',
+      url: 'index.html',
+        },
       {
       path: '/cuenta/',
       url: 'cuenta.html',
@@ -20,11 +23,7 @@ var app = new Framework7({
       path: '/recetario/',
       url: 'recetarios.html',
     },
-       {
-      path: '/inicio/',
-      url: 'index.html',
-    },
-       {
+      {
       path: '/master/',
       url: 'masterclass.html',
     },
@@ -144,6 +143,10 @@ var app = new Framework7({
       path: '/popular/',
       url: 'popular.html',
     },
+       {
+      path: '/configuracion/',
+      url: 'configuracion.html',
+    },
   ],
   // ... other parameters
 });
@@ -165,9 +168,13 @@ function cerrarpopup() {
 cerrarpopup()
 function popupresgistrarse() {
     //    var abrirPopupRegistrarse = app.popup.open(".popup-registrarse");
-    var abrirPopupBienvenida = app.popup.close(".popup-bienvenida")
 }
 
 function popupiniciarsesion() {
     var abrirPopupIniciarsesion = app.popup.open(".popup-iniciarsesion");
 }
+function cerrarinstrucciones() {
+  var cerrarinstruc = app.popup.close (".popup-instrucciones");
+    var cerrarbienvenida = app.popup.close (".popup-bienvenida");
+}
+

@@ -81,6 +81,7 @@ font-family: 'latoregular';*/
 }
 
 /*ESTILOS INDEX-MENU*/
+
 .page-content{ background-image: url(../image_mp/5.png);
 background-repeat: no-repeat;
     background-size: cover;
@@ -90,14 +91,18 @@ background-repeat: no-repeat;
     width: 60%;
     margin: auto;
 }
-.logo_menu{margin: 30px 100px 0 100px
+.logo_menu{
+    margin-left: 75px;
 }
 .menu-inner {
     display:flow-root;
 }
+.menu-item{
+    margin:0;
+}
 .menu-item-content{background-color: #F29F8B;
-    width: 200px;
-    height: 47px;
+    width: 230px;
+    height: 50px;
 }
 .menu-item img {
     text-align: left;
@@ -117,7 +122,6 @@ background-repeat: no-repeat;
 /*ÑUSTA*/
 /*PAGINA NIVEL DESBLOQUEADO*/
 .desbloqueado_nm_{
-    background-color: #ffaa95;
     font-family: 'amatic_scbold';
     padding: 20px 0 ;
 }
@@ -129,16 +133,18 @@ background-repeat: no-repeat;
 }
 #centrado_nm{
     font-size: 50px;
-    color: white;
+    color: #3e3e3e;
     letter-spacing: 6px;
         text-align: center;
+    margin: 0;
+    padding: 20px
 }
 .centrado2_nm{
  text-align: center;
    font-size: 30px;
     color: #4e4e4e;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     letter-spacing: 2px;
 }
 .imagen_descripcion_nm{
@@ -157,10 +163,12 @@ background-repeat: no-repeat;
 }
 .negro_nm{
     font-size: 28px;
+    margin: 0;
 }
 .blanco_nm{
     color: white;
     font-size: 20px;
+    margin: 0;
 
 }
 
@@ -203,7 +211,6 @@ background-repeat: no-repeat;
     margin: auto;
     margin-right:40px;
     margin-left: 40px;
-    border-radius: 8px;
     margin-bottom: 20px;
     margin-top: 20px;
     box-shadow: 6px 6px 10px 2px rgba(41, 40, 40, 0.62);
@@ -252,10 +259,10 @@ border-color:  #8BA977;
 .logo_recetario{
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
 }
 .logo_recetario img{
     width: 40%;
+    margin-bottom: 30px;
 }
 .basico_nm{
    background-image: url(../images_nm/5_1.png);
@@ -263,7 +270,6 @@ border-color:  #8BA977;
     background-size: cover;
     object-fit: cover;
     font-family: 'amatic_scbold';
-    padding-bottom: 55px;
 }
 .niveles_nm a{
     text-decoration: none;
@@ -278,22 +284,27 @@ border-color:  #8BA977;
     display: flex;
 margin-left: 40px;
     margin-right: 40px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 38px;
     box-shadow: 0px 12px 10px 2px rgba(41, 40, 40, 0.46);
 }
 .imagen_descripcion3_nm:hover{
     background-color: #F29F8B;
 }
 .negro_nm1{
+    padding: 10px;
     font-size: 24px;
     font-family: 'amatic_scbold';
+    margin: 0;
+    color: #000000;
 
 }
 .blanco_nm1{
-    color: white;
+    color: #4d4545;
     font-size: 20px;
+    margin: 0;
+    padding: 0px 10px 5px;
+    line-height: 20px;
+
 }
 
 /*FIN RECETARIO*/
@@ -606,7 +617,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 width:100%;
-margin-top:30px;
+margin-top:0px;
 align-content: center;
     justify-content: center;
     text-align: center;
@@ -664,10 +675,9 @@ align-content: center;
     margin-left: 65px
 }
 .botonrosa_mp{
-    width: 1%;
     margin:auto;
-    text-align:end;
-    padding: 5px 0 0px;
+    text-align:center;
+    padding: 10px 0 10px;
 }
 .btnrosa_mp{
     text-decoration: none;
@@ -680,6 +690,7 @@ border-color:  #8BA977;
     border-style: solid;
     border-radius: 20px;
     box-shadow: 1px 5px 10px 0px rgba(41, 41, 41, 0.75);
+
 }
 .btnrosa_mp:hover {
     color:  white;
@@ -721,10 +732,11 @@ border-color:  #8BA977;
     font-family: 'latoregular';
     width: 70%;
     margin: auto;
-    padding: 40px 0 0;
-    font-size: 0.7em;
-    line-height: 1.2em;
+    padding: 10px 0 0;
+    font-size: 14px;
+    line-height: 1.1em;
     text-align:center;
+    color: #3c3c3c
 
 
 }
@@ -864,6 +876,7 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 .vinculo_fi_mac{
     text-decoration: none;
     color: #8BA977;
+    font-size: 13px
 }
 .vinculo_fi_mac :hover{
     background-color: #F29F8B;
@@ -872,7 +885,7 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 .titulos_lomapopu_mac{
     font-family: 'amatic_scbold';
     font-size: 20px;
-    color: white;
+    color: #0a0a0a;
     margin-bottom: 10px;
     text-align: end;
     margin-right: 20px;
@@ -1170,7 +1183,7 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
     background-color: rgba(139, 169, 119, 0.54);
     border-bottom-left-radius: 160px;
     border-bottom-right-radius: 160px;
-    margin: 10px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
     padding-top: 60px;
 }
 .imagen_gorro h2{
@@ -1200,8 +1213,9 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 }
 .banderas_nm img{
     width: 60%;
-    margin: auto;
-    padding: 20px 0px;
+    margin:0;
+    padding-right: 45px;
+    padding-bottom: 20px;
 }
 .banderas_nm ul li{
    list-style-type: none;
@@ -1217,10 +1231,9 @@ border-bottom: 2px solid  rgba(96, 96, 96, 0.75);
 }
 .estrellas_i{
     width: 80%;
-    margin: auto;
     text-align: center;
-    margin-bottom:40px;
-    margin-top: 30px;
+    padding-left: 20px;
+
 }
 .estrellas_i ul li{
     list-style-type: none;
@@ -1288,3 +1301,116 @@ padding-left: 20px;
     color: #791a1a;
     padding: 80px 0;
     text-align: center;
+}
+/*estilos extras*/
+.back3{
+     font-size: 40px;
+    margin:0;
+    color: #ffffff;
+}
+.back3:hover{
+    color: #F29F8B;
+}
+.cuentaicono{
+    background-color: #759b5d;
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+
+}
+.cuentaicono2{
+    margin: 0;
+    width: 100%;
+    padding: 15px;
+
+}
+
+/*HERRAMIENTAS BASICAS*/
+
+
+
+.titulo_herramientas{
+    font-family:'amatic_scregular';
+    color:  #F29F8B;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0 5px;
+
+}
+
+.h3_subti{
+    text-align:center;
+    font-family: 'latoregular';
+    font-size: 25px;
+    color:  rgb(139, 169, 119);
+    padding: 10px 0 0px;
+}
+
+.herramientas{
+    background-image: url(../image_daniela/fondo_gis_herra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.banner{
+    width: 100%;
+    margin: auto;
+}
+
+.descrip{
+    text-align:justify;
+    font-family: 'latoregular';
+    font-size: 15px;
+    color: #606060;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+
+.recomendacion{
+    margin: 50px 50px 0px 50px;
+}
+
+
+.otros_h{
+    background-image: url(../image_daniela/fondo_1_herra.psd);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.columna1_d{
+    margin-right: 10px;
+    padding:9px 9px 10px 9px;
+}
+.columna2_d{
+    margin-left: 10px;
+    padding:9px 9px 10px 9px;
+
+}
+
+.otros_h{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 10%;
+    font-family: 'latomedium';
+    font-size: 10px;
+    padding: 40px 0px;
+}
+.herra_image{
+    width: 80%;
+    padding-left: 40px;
+}
+#con_n{
+    text-align: center;
+    font-size: 35px;
+}
+.block-strong{
+    padding: 10px 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.74);
+    font-size: 16px;
+}

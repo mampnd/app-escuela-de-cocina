@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <script type="text/javascript" src="js/all.min.js"></script>
 <link type="text/css" href="fuente/stylesheet.css" rel="stylesheet">
+
 <!--iconos-->
  <link rel="apple-touch-icon" href="image_daniela/icono57.png" sizes="57x57">
  <link rel="apple-touch-icon" href="image_daniela/icono80.png" sizes="80x80">
@@ -30,22 +31,6 @@
         <div data-name="home-menu" class="page">
 
           <!-- Top Navbar -->
-            <div class="navbar-inner">
-              <div class="subnavbar">
-        <!-- Searchbar with auto init -->
-        <form class="searchbar">
-          <div class="searchbar-inner">
-            <div class="searchbar-input-wrap">
-              <input type="search" placeholder="Buscar">
-              <i class="searchbar-icon"></i>
-              <span class="input-clear-button"></span>
-            </div>
-            <span class="searchbar-disable-button if-not-aurora">Cancel</span>
-          </div>
-        </form>
-      </div>
-            </div>
-          </div>
 
           <!-- Bottom Toolbar -->
           <div class="toolbar toolbar-bottom">
@@ -60,14 +45,13 @@
     <!-- Scrollable page content -->
     <div class="page-content">
                     <div class="block">
-
-                        <img src="image_mp/1.png" alt="bienvenido" width="40%" class="logo_menu"></div>
+                        <img src="image_mp/1.png" alt="bienvenido" width="60%" class="logo_menu"></div>
 
                     <div class="menu">
                           <div class="menu-inner">
 
-                            <a href="/cuenta/" class="menu-item link">
-                                <div class="menu-item-content  iconomenu"><span><img src="image_mp/icono1.png" alt="" width="35px" class="icono_menu"></span><span>Tu cuenta</span></div>
+                            <a href="/cuenta/" class="menu-item link diferente">
+                                <div class="menu-item-content  iconomenu"><span><img src="image_mp/icono1.png" alt="" width="35px" class="icono_menu" id="diferente"></span><span>Tu cuenta</span></div>
                             </a>
                             <br>
                             <br>
@@ -97,7 +81,7 @@
                             </a>
                             <br>
                             <br>
-                            <a href="#" class="menu-item link">
+                            <a href="/configuracion/" class="menu-item link">
                                 <div class="menu-item-content iconomenu"><span><img src="image_mp/icono10.png" alt="" width="35px"></span><span>Configuración</span></div>
                             </a>
                         </div>
@@ -106,7 +90,6 @@
                  <!--PORTADA-->
                 <div class="popup popup-about fondo">
                     <div class="block">
-                         Close Popup
                         <img src="image_mp/1.png" alt="logo inicio" width="80%" id="logo_portada">
                         <br>
                         <h2 id="frase">"Todos pueden cocinar"</h2>
@@ -117,14 +100,18 @@
                 <!--BIENVENIDA-->
                 <div class="popup popup-bienvenida fondo-rosa">
                     <div class="block">
+
 <!--                         Close Popup -->
                         <h2>HOLA!!</h2>
-                    <img src="image_mp/2.png" alt="bienvenido" width="100%">
+                        <div id="bienve"><img src="image_mp/2.png" alt="bienvenido" width="100%"></div>
+                        <script type="text/javascript" src="js/animacion.js"></script>
+<script type="text/javascript" src="js/gsap.min.js"></script>
+
                         <br>
-                        <a href="" class="popup-close">popup</a>
-                        <a class="button popup-open" href="#" data-popup=".popup-instrucciones" id="siguiente">siguiente > </a>
+                        <a class="button popup-open" href="#" data-popup=".popup-instrucciones" id="siguiente" onclick="popupbienvenida()">siguiente > </a>
                     </div>
                 </div>
+
 <!--INSTRUCCIONES-->
                 <div class="popup popup-instrucciones">
 <!--                     Close Popup -->
@@ -148,12 +135,12 @@
                                 <br>
                                 <h2>Desbloquea los diferentes niveles cada que alcances tus logros diarios</h2>
                                 <br>
-                                <a href="" class="popup-close">popup</a>
                                 <div class="block">
                                     <p class="row">
-                                        <button class="col button button-outline button-round button-raised color-gray popup-open" data-popup=".popup-registrarse" id="botongris">Registrarse</button>
+                                        <button class="col button button-outline button-round button-raised color-gray popup-open" data-popup=".popup-registrarse" id="botongris" onclick="cerrarinstrucciones()">Registrarse</button>
 
-                                        <button class="col button button-raised button-fill color-gray button-round popup-open" data-popup=".popup-iniciarsesion" id="botongris">Iniciar Sesión</button>
+                                        <button class="col button button-raised button-fill color-gray button-round popup-open" data-popup=".popup-iniciarsesion" id="botongris" onclick="cerrarinstrucciones()">Iniciar Sesión</button>
+                                        <a href="#"></a>
                                     </p>
                                 </div>
                             </div>
@@ -162,7 +149,6 @@
                 </div>
                 <!-- INICIAR SESION               -->
                 <!--inicio popup iniciar sesion-->
-<!--
                 <div class="popup popup-iniciarsesion">
                     <div class="page-content">
                         <div class="block">
@@ -196,10 +182,8 @@
                         </div>
                     </div>
                 </div>
--->
                 <!--REGISTRARSE-->
                 <!--inicio popup registrarse-->
-<!--
                 <div class="popup popup-registrarse">
                     <div class="page-content">
                         <div class="block">
@@ -245,17 +229,16 @@
 
                         <div class="block">
                             <p class="row">
-                                <button class="col button button-raised button-fill button-round color-gray">Comenzar</button>
+                                <button class="col button button-raised button-fill button-round color-gray popup-close">Comenzar</button>
                             </p>
                         </div>
                     </div>
                 </div>
--->
 
           </div>
         </div>
 
-
+  </div>
 
     <!-- Path to Framework7 Library Bundle JS-->
     <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
